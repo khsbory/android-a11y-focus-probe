@@ -1,0 +1,419 @@
+{
+  "phone_tz_s": 0,
+  "clock_offset_s": 0.0,
+  "density": 2.75,
+  "runs": [
+    {
+      "mode": "wait-speech",
+      "delay_ms": 0,
+      "steps": [
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "홈",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,0][400,150]",
+            "childText": "",
+            "heading": true,
+            "headingLevel": 1
+          },
+          "actions": [],
+          "t0": 1760000000.0,
+          "t1": 1760000000.08,
+          "wend": 1760000000.63
+        },
+        {
+          "node": {
+            "class": "android.widget.ImageButton",
+            "text": "",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,160][100,210]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000000.63,
+          "t1": 1760000000.71
+        },
+        {
+          "node": {
+            "class": "android.widget.Button",
+            "text": "확인",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,220][400,370]",
+            "childText": ""
+          },
+          "actions": [
+            "빠른 실행"
+          ],
+          "t0": 1760000000.71,
+          "t1": 1760000000.79,
+          "wend": 1760000001.24
+        },
+        {
+          "node": {
+            "class": "android.widget.FrameLayout",
+            "text": "",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,380][400,530]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000001.24,
+          "t1": 1760000001.32,
+          "wend": 1760000001.77
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "중복",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,540][400,690]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000001.77,
+          "t1": 1760000001.85,
+          "wend": 1760000002.3
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "중복",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,700][400,850]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000002.3,
+          "t1": 1760000002.3799999,
+          "wend": 1760000002.83
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "느린 항목",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,860][400,1010]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000002.83,
+          "t1": 1760000004.23,
+          "wend": 1760000004.68
+        },
+        {
+          "node": {
+            "class": "android.widget.ImageView",
+            "text": "",
+            "contentDescription": "이미지",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1020][400,1170]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000004.68,
+          "t1": 1760000004.76,
+          "wend": 1760000005.21
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "가격\n500,014원",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1180][400,1330]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000005.21,
+          "t1": 1760000005.29,
+          "wend": 1760000005.94
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "제목\n부제목 내용",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1340][400,1490]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000005.94,
+          "t1": 1760000006.02,
+          "wend": 1760000006.47
+        },
+        {
+          "node": {
+            "class": "android.widget.CheckBox",
+            "text": "알림 설정",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1500][400,1650]",
+            "childText": "",
+            "checkable": true,
+            "checked": true
+          },
+          "actions": [],
+          "t0": 1760000006.47,
+          "t1": 1760000006.55,
+          "wend": 1760000007.1000001
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "주소 표시줄",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1660][400,1810]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000007.1000001,
+          "t1": 1760000007.18,
+          "wend": 1760000007.8300002
+        },
+        {
+          "node": {
+            "class": "android.widget.Button",
+            "text": "삭제",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1820][400,1970]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000007.8300002,
+          "t1": 1760000007.91,
+          "wend": 1760000008.3600001,
+          "action_runs": [
+            {
+              "label": "삭제 실행",
+              "t0": 1760000008.41,
+              "t1": 1760000008.51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "fast",
+      "delay_ms": 300,
+      "steps": [
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "홈",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,0][400,150]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000060.0,
+          "t1": 1760000060.08
+        },
+        {
+          "node": {
+            "class": "android.widget.ImageButton",
+            "text": "",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,160][100,210]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000060.3799999,
+          "t1": 1760000060.4599998
+        },
+        {
+          "node": {
+            "class": "android.widget.Button",
+            "text": "확인",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,220][400,370]",
+            "childText": ""
+          },
+          "actions": [
+            "빠른 실행"
+          ],
+          "t0": 1760000060.7599998,
+          "t1": 1760000060.8399997
+        },
+        {
+          "node": {
+            "class": "android.widget.FrameLayout",
+            "text": "",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,380][400,530]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000061.1399996,
+          "t1": 1760000061.2199996
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "중복",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,540][400,690]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000061.5199995,
+          "t1": 1760000061.5999994
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "중복",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,700][400,850]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000061.8999994,
+          "t1": 1760000061.9799993
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "느린 항목",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,860][400,1010]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000062.2799993,
+          "t1": 1760000063.6799994
+        },
+        {
+          "node": {
+            "class": "android.widget.ImageView",
+            "text": "",
+            "contentDescription": "이미지",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1020][400,1170]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000063.9799993,
+          "t1": 1760000064.0599992
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "가격\n500,014원",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1180][400,1330]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000064.3599992,
+          "t1": 1760000064.439999
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "제목\n부제목 내용",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1340][400,1490]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000064.739999,
+          "t1": 1760000064.819999
+        },
+        {
+          "node": {
+            "class": "android.widget.CheckBox",
+            "text": "알림 설정",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1500][400,1650]",
+            "childText": "",
+            "checkable": true,
+            "checked": true
+          },
+          "actions": [],
+          "t0": 1760000065.119999,
+          "t1": 1760000065.1999989
+        },
+        {
+          "node": {
+            "class": "android.widget.TextView",
+            "text": "주소 표시줄",
+            "contentDescription": "",
+            "clickable": false,
+            "viewId": "",
+            "bounds": "[0,1660][400,1810]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000065.4999988,
+          "t1": 1760000065.5799987
+        },
+        {
+          "node": {
+            "class": "android.widget.Button",
+            "text": "삭제",
+            "contentDescription": "",
+            "clickable": true,
+            "viewId": "",
+            "bounds": "[0,1820][400,1970]",
+            "childText": ""
+          },
+          "actions": [],
+          "t0": 1760000065.8799987,
+          "t1": 1760000065.9599986,
+          "action_runs": [
+            {
+              "label": "삭제 실행",
+              "t0": 1760000066.4599986,
+              "t1": 1760000066.5599985
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

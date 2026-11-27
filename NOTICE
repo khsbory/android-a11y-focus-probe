@@ -1,0 +1,15 @@
+Android Accessibility Focus Probe
+
+Portions adapted from Google Artemis (https://github.com/google/artemis),
+packages/artemis-accessibility-helper, revision
+351ca8422f7b5b54e80a9c1ce03a222e02415b6b, under the Apache License 2.0.
+See LICENSES/Apache-2.0.txt.
+
+Affected files (modified for the standalone probe):
+  build_apk.sh
+  app/src/main/AndroidManifest.xml
+  app/src/main/res/xml/accessibility_service_config.xml
+  app/src/main/java/com/artemis/helpermin/TokenReceiver.java
+
+Original AccessBridge material is covered by the MIT LICENSE. This project is
+not affiliated with or endorsed by Google.

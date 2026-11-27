@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Portions adapted from Google Artemis under Apache-2.0. Modified for Focus Probe; see NOTICE. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artemis.helpermin">
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="35" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name">
+
+        <service
+            android:name=".HelperService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:foregroundServiceType="specialUse"
+            android:exported="true">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="loopback accessibility helper keepalive" />
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service>
+
+        <!-- Token drop: only the adb shell user / system (WRITE_SECURE_SETTINGS) can send it. -->
+        <receiver
+            android:name=".TokenReceiver"
+            android:exported="true"
+            android:permission="android.permission.WRITE_SECURE_SETTINGS">
+            <intent-filter>
+                <action android:name="com.artemis.helpermin.SET_TOKEN" />
+            </intent-filter>
+        </receiver>
+
+        <!-- In-app test screen for custom accessibility actions; not a launcher entry. -->
+        <activity
+            android:name=".DemoDefectsActivity"
+            android:label="Demo Defects"
+            android:exported="true" />
+
+        <activity
+            android:name=".ActionTestActivity"
+            android:label="Action Test"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

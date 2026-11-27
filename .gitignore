@@ -1,0 +1,30 @@
+# Build outputs and local signing material
+build/
+.gradle/
+*.apk
+*.aab
+*.dex
+*.class
+*.idsig
+*.jks
+*.keystore
+*.p12
+
+# Local SDK paths, workspace settings, and secrets
+local.properties
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.properties
+
+# Local test output
+tools/reports/
+tools/tests/out/
+/tools/talkback-logger/captures/
+/tools/talkback-logger/*.state.json
+__pycache__/
+logs/
+*.log

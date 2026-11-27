@@ -1,0 +1,8 @@
+<resources>
+    <item name="action_mark_done" type="id" />
+    <item name="action_add_star" type="id" />
+    <item name="action_reset_counter" type="id" />
+    <item name="action_demo_mark_delete" type="id" />
+    <item name="demo_input" type="id" />
+    <item name="demo_password" type="id" />
+</resources>

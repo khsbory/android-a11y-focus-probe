@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android Accessibility Focus Probe</string>
+    <string name="accessibility_service_description">Minimal accessibility helper for focus navigation tests alongside TalkBack. Does not request touch exploration.</string>
+</resources>

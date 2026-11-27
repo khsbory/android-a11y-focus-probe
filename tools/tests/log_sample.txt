@@ -1,0 +1,33 @@
+10-09 08:53:19.000 I/Other( 1): unrelated line
+continuation without timestamp
+10-09 08:53:20.230 I/Speech( 100): Speaking fragment text="홈", utteranceId=u0
+10-09 08:53:20.329 I/Speech( 100): Speaking fragment text="제목", utteranceId=u0
+10-09 08:53:20.940 I/Speech( 100): Speaking fragment text="확인 버튼", utteranceId=u2
+10-09 08:53:21.470 I/Speech( 100): Speaking fragment text="목록", utteranceId=u3
+10-09 08:53:22.000 I/Speech( 100): Speaking fragment text="중복", utteranceId=u4
+10-09 08:53:22.529 I/Speech( 100): Speaking fragment text="중복", utteranceId=u5
+10-09 08:53:24.380 I/Speech( 100): Speaking fragment text="느린 항목", utteranceId=u6
+10-09 08:53:24.910 I/Speech( 100): Speaking fragment text="이미지", utteranceId=u7
+10-09 08:53:25.440 I/Speech( 100): Speaking fragment text="가격", utteranceId=u8
+10-09 08:53:25.539 I/Speech( 100): Speaking fragment text="500,014", utteranceId=u8
+10-09 08:53:25.640 I/Speech( 100): Speaking fragment text="원", utteranceId=u8
+10-09 08:53:26.170 I/Speech( 100): Speaking fragment text="제목", utteranceId=u9
+10-09 08:53:26.700 I/Speech( 100): Speaking fragment text="알림 설정", utteranceId=u10
+10-09 08:53:26.799 I/Speech( 100): Speaking fragment text="확인란", utteranceId=u10
+10-09 08:53:27.330 I/Speech( 100): Speaking fragment text="주소 표시줄", utteranceId=u11
+10-09 08:53:27.430 I/Speech( 100): Speaking fragment text="http://example.com/x", utteranceId=u11
+10-09 08:53:27.530 I/Speech( 100): Speaking fragment text="새 알림이 도착했습니다", utteranceId=u11
+10-09 08:53:28.060 I/Speech( 100): Speaking fragment text="삭제 버튼", utteranceId=u12
+10-09 08:54:21.369 I/Speech( 100): Speaking fragment text="목", utteranceId=u3
+10-09 08:54:21.749 I/Speech( 100): Speaking fragment text="중복", utteranceId=u4
+10-09 08:54:22.129 I/Speech( 100): Speaking fragment text="중복", utteranceId=u5
+10-09 08:54:24.209 I/Speech( 100): Speaking fragment text="이미지", utteranceId=u7
+10-09 08:54:24.589 I/Speech( 100): Speaking fragment text="가격", utteranceId=u8
+10-09 08:54:24.689 I/Speech( 100): Speaking fragment text="500,014", utteranceId=u8
+10-09 08:54:24.789 I/Speech( 100): Speaking fragment text="원", utteranceId=u8
+10-09 08:54:24.969 I/Speech( 100): Speaking fragment text="제목", utteranceId=u9
+10-09 08:54:25.349 I/Speech( 100): Speaking fragment text="알림 설정", utteranceId=u10
+10-09 08:54:25.729 I/Speech( 100): Speaking fragment text="주소 표시줄", utteranceId=u11
+10-09 08:54:25.829 I/Speech( 100): Speaking fragment text="http://example.com/x", utteranceId=u11
+10-09 08:54:25.929 I/Speech( 100): Speaking fragment text="새 알림이 도착했습니다", utteranceId=u11
+10-09 08:54:26.109 I/Speech( 100): Speaking fragment text="삭제 버튼", utteranceId=u12
